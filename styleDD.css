@@ -1,0 +1,224 @@
+
+
+body{
+    background-color:#33FFF0  ;
+}
+a:hover{
+    color: pink;
+}
+.GIF{
+    float:left;
+    padding: 5px;
+    max-height:400px;
+    max-width: 350px;
+}
+
+h1{
+    font-family: fantasy;
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-shadow: 3px 2px 2px purple;
+}
+h2{
+    font-family: Stencil Std, fantasy;
+    text-shadow: 3px 2px 2px purple;
+}
+h2.center{
+    text-align: center;
+}
+.centerList{
+    list-style-position: inside;
+    font-variant: small-caps;
+    position:relative;
+    text-align: center;
+}
+li.blue{
+    color: blue;
+    padding-left: 15px;
+}
+
+li.purple{
+    color: blueviolet;
+}
+
+li.Pink{
+    color: rgb(238, 130, 215);
+}
+.subscript{
+    vertical-align: sub;
+}
+
+hr.Line{
+    border-top: 5px dotted violet;
+}
+#topPad{
+    padding-top: 20px;
+}
+p.arial_font
+{
+    font-size: 15px;
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    
+}
+.pink{
+    color: fuchsia;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-family: Didot, serif;
+    font-variant: small-caps;
+    
+}
+
+p.endingFont{
+    color: fuchsia;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    text-align: left;
+    font-family: Didot, serif;
+    font-variant: small-caps;
+    margin-bottom: 30px;
+}
+.container{
+    background-color: rgba(238, 130, 193, .5);
+    height: 300px;
+    max-width: 500px;
+    border-style: double;
+    border-top-width: 20px;
+    border-bottom-width: 20px;
+    border-color: fuchsia;
+
+
+}
+#growBTN{
+    color:fuchsia;
+    height: 30px;
+    margin-top: 10px;
+
+
+}
+p.simonText{
+    color:blue;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-family: Didot, serif;
+    font-variant: small-caps;
+}
+.simonHead{
+    margin-top: 10px;
+    height: 40px;
+    width: 40px;
+    position:absolute;
+}
+.credits{
+    font-family: fantasy;
+    color: rgb(53, 0, 139);
+    position:sticky;
+    text-align: center;
+ 
+}
+.toggle{
+    position: relative;
+    align-self: center;
+
+    
+}
+.toggle input{
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+.toggle .onOff{
+color: darkorchid;
+text-align: center;
+font-size: 2em;
+display: block;
+font-family: 'Times New Roman', Times, serif;
+}
+.slider{
+    display: block;
+    position:relative;
+    cursor: pointer;
+    background-color: darkorchid;
+    transition: .4s;
+    width: 45px;
+    height: 26px;
+}
+.slider::before{
+content:'';
+position:absolute;
+background-color: white;
+height: 20px;
+width: 20px;
+transition: .4s;
+top: 3px;
+left: 3px;
+}
+input:checked+ .slider::before{
+    transform: translateX(19px);
+}
+input:checked+ .slider{
+    background-color: lightpink;
+}
+.slider.round{
+    border-radius: 5px;
+}
+.center{
+
+    display:flex;
+    justify-content: center;
+   align-items: center;
+
+}
+.tabletitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    font-size: 25px;
+    color: darkblue;
+    text-align: center;
+
+}
+.table, tr, th, td{
+    border:2px groove darkblue ;
+    
+}
+th{
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    font-size: 20px;
+    color: darkblue;
+    text-align: center;
+
+}
+td{
+    color: darkorchid;
+    font-family: fantasy; 
+    text-align: center;
+
+}
+
+.list{
+
+    background-color:whitesmoke !important;
+    position:absolute;
+    width: 450px;
+    top: 100px;
+    right: 0px;
+    margin-right: 5px;
+    
+}
+.rio:hover{
+color: blue;
+}
+.padding{
+    padding-top:12px;
+    position: relative;
+    text-align:center;
+}

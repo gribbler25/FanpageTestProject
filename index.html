@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<head>
+    <!--minified css copied from the example Bootcamp Prework html pages AND trying the googleAPI-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="styleDD.css"/>
+    <meta charset="UTF-8"/>
+    <title>Sarah's Duran Duran Fanpage</title>
+    <!--favicon-->
+    <link rel="shortcut icon" type="image/jpg" href="favicons/favicon.png"/>
+    <!--jQuery-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<header >
+  
+    <h1><strong><em>Welcome, </em>Duran <br/>Duran <br/>Fans!</strong></h1>
+    <img class="GIF" src="https://c.tenor.com/YqJcUlv4l3EAAAAd/duran-duran-music.gif"
+     alt="Duran Duran GIF" />
+  
+    <h6>GIF credits to Gregorysteven34 -- Tenor.com</h6>
+</header>
+
+<body>
+    <div class="list">           
+    <h2 class="padding">Duran Duran <em>in the NEWS...</em></h2>
+    <ul class="centerList">
+        <!--New album link-->
+        <li class="blue">New Album Released:<a class="rio" href="https://duranduran.com/new-releases/pre-order-duran-durans-future-past/" 
+            target="_blank" rel="noopener noreferrer">"Future Past"</a> </li>
+        <br/>
+        <li class="purple">2022 is the <strong>40th</strong>anniversary of album 
+            <!--Rio anniversary video link-->
+            <a class="rio" href="https://duranduranboard.proboards.com/thread/39604/rio-40th-anniversary-2022" 
+            target="_blank" rel="noopener noreferrer">"Rio!"</a></li>
+        <br/>
+        <li class="Pink">Duran Duran just voted into the Rock n Roll Hall of Fame??<br/>
+        <em>Yaaaas! </em>Find out more 
+        <!--Hall of Fame link-->
+        <a class="rio" href="https://www.youtube.com/watch?v=JHCI0M3wNbk" 
+        target="_blank" rel="noopener noreferrer" >HERE</a></li>
+    </ul>
+    </div>
+  
+
+    <hr class="Line">
+    <h2 class="center">BIO</h2>
+ <p class="arial_font" >
+<em>Duran Duran</em> is a British "new wave" Band formed in the city of Birmingham, England, in 1978 
+by keyboardist Nick Rhodes and bassist John Taylor, 
+with the later addition of drummer Roger Taylor,  guitarist Andy Taylor (no, none of the Taylors are related) and lead singer Simon Le Bon. 
+Duran Duran has been a band for over 40 years and has been known as the "Fab 5",
+in what is sometimes refered to as the MTV-driven 'Second British Invasion' of the 1980's.  
+Sadly, Andy Taylor left the group in 2006, but the other four didn't miss a beat
+and their positive-vibe music remains just as 
+relavant and enjoyable today as it was with the release of "Rio" in 1982<span class="pink">...
+have a listen to some new stuff!</span>
+</p>
+<!--YouTube Invisible video-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SMCd5zrsFpE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p class="endingFont" id="topPad">...now constrast that with an old favorite:
+<!--link to old Rio video-->
+<a class="rio" href="https://www.youtube.com/watch?v=nTizYn3-QN0" target="_blank" >Click here for "Rio" video</a>
+</p>
+<!--Practicing  an html table-->
+<h2 class="tabletitle">Original Band</h2>
+   
+<table class="table">
+    <tr>
+        <th>Keyboards</th>
+        <th>Bass</th>
+        <th>Drums</th>
+        <th>Guitar</th>
+        <th>Lead Vocals</th>
+    </tr>
+    <tr>
+        <td>Nick Rhodes</td>
+        <td>John Taylor</td>
+        <td>Roger Taylor</td>
+        <td>Andy Taylor</td>
+        <td>Simon Le Bon</td>
+    </tr>
+
+</table>
+
+
+
+
+<p class="endingFont">  
+***THANKS for visiting my Duran Duran Fanpage, <br/>
+Love those FAB 80's guys forever! Now see what this toggle switch can do, <br/>
+if I can get it to work!***
+</p>
+
+<!--Practicing a checkbox set to zero opacity and triggering a toggle function using JS/CSS-->
+    <div class="center">
+        <label class="toggle">
+            <span class="onOff"> GROW OFF</span>
+            <input type="checkbox"/>
+            <span class="slider round"></span>
+        </label>
+    </div>   
+
+
+<!--trying the Jquery library for a container with a function over a button on an image as object-->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            
+                <div class="panel-body text-center">
+                <p class="simonText">***Click here to watch Simon's head grow indefinitely!***
+                </p>
+                <button id="growBTN"  class="Simon" >Here!</button><br><br>
+                <img id="simonHead" class="simonHead" src="LeBon.jpg" alt="Simon Le Bon">
+                </div>
+        </div>
+    
+    </div>
+</div>
+<h5 class="credits"> This fake fanpage created in honor of my spouse, their biggest fan.</h5>
+
+
+</body>
+<!--link .js file at END of the page-->
+<script type="text/javascript" src="DD.js"></script>
+</html>
